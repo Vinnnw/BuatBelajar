@@ -1,0 +1,28 @@
+Pola Ular 
+Joe sangat menyukai ular. Karena baru belajar dasar pemrograman python, Arya mau melatih kemampuan pythonnya dengan menampilkan angka dengan pola ular. Kamu sebagai teman Arya tertarik dengan soal tersebut dan ikut mengerjakan bersamanya. Buatlah fungsi polaular(angka) yang dapat menghasilkan pola tersebut secara dinamis!
+
+Contoh:
+polaular(4) akan menghasilkan output:
+
+01 02 03 04 
+08 07 06 05 
+09 10 11 12 
+16 15 14 13
+polaular(0) akan menghasilkan output:
+
+tidak terdefiniskan
+
+polaular(5) akan menghasilkan output:
+
+01 02 03 04 05 
+
+10 09 08 07 06 
+
+11 12 13 14 15 
+
+20 19 18 17 16 
+
+21 22 23 24 25
+Perhatikan:
+
+Ukuran baris dan kolom berubah sesuai nilai angka
