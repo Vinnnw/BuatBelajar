@@ -1,0 +1,53 @@
+Pras merupakan seorang mahasiswa fresh graduate dari Prodi Informatika, sejak kecil ia menganggap bahwa pekerjaan arsitek adalah pekerjaan yang mudah. Oleh karena itu saat ini ia ingin mencoba untuk membuktikannya karena ia baru saja lulus kuliah dari Prodi Informatika dan belum mendapat pekerjaan. Ia mencoba untuk mendaftar sebagai freelance Arsitek pada sebuah website. Selang beberapa hari ada orang yang ingin mempekerjakannya untuk membuat denah rumahnya, mulai dari pagar, halaman depan, halaman belakang, hingga rumahnya. Namun ia hanya meminta gambaran kasarnya saja. Karena Pras merupakan lulusan Informatika, ia mencoba untuk membuat denah namun dalam bentuk interpretasinya sendiri.
+
+Soal ini memiliki Fungsi dengan nama layout_rumah() yang bertujuan untuk menggambarkan denah rumah, pagar, dan halaman yang mengelilingi rumahnya. Dimana pagar rumah dilambangkan dengan “#”, halaman rumah digambarkan dengan “H”, dan rumahnya sendiri digambarkan dengan “R”
+
+Seluruh rumah selalu memiliki pagar yang mengelilinginya dan lebar halamannya selalu sama baik didepan, samping, maupun belakang rumah.
+
+Penjelasan Parameter:
+Fungsi layout_rumah() memiliki 3 parameter (nama parameter bebas, tidak harus sama yang penting nama fungsinya sama), yaitu:
+
+panjang_rumah = Merupakan Tipe data Integer, merupakan panjang dari rumah, rumahnya aja
+
+lebar_rumah = Merupakan Tipe data Integer, merupakan lebar dari rumah, rumahnya aja
+
+halaman = Merupakan Tipe data Integer, merupakan lebar dari halaman rumah, misal isi halaman adalah 2 maka lebar halaman depan, samping, belakang adalah 2
+
+ 
+
+Catatan Tambahan:
+BACA SOAL terlebih dahulu sebelum bertanya kepada asdos. Budayakan baca soal ygy.
+
+Baca Test case, cermati polanya.
+
+Kalau ada error dibaca line berapa sama errornya apa.
+
+Pakai materi minggu ini dan kemarin udah pasti bisa kerjain, gausa pake materi lain-lain kalau belum paham dari pada susah sendiri.
+
+For example:
+
+Test	Result
+layout_rumah(3,3,2)
+# # # # # # # # #
+# H H H H H H H #
+# H H H H H H H #
+# H H R R R H H #
+# H H R R R H H #
+# H H R R R H H #
+# H H H H H H H #
+# H H H H H H H #
+# # # # # # # # #
+layout_rumah(2,2,1)
+# # # # # #
+# H H H H #
+# H R R H #
+# H R R H #
+# H H H H #
+# # # # # #
+layout_rumah(3,4,0)
+# # # # #
+# R R R #
+# R R R #
+# R R R #
+# R R R #
+# # # # #
